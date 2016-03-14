@@ -1,0 +1,79 @@
+/*------------------------------------*\
+	#COMPASS IMPORT
+\*------------------------------------*/
+
+@import 'bourbon';
+
+
+/*------------------------------------*\
+	#CONTAINER
+\*------------------------------------*/
+
+$main-width: 1200px;
+
+
+/*------------------------------------*\
+	#BASE COLORS
+\*------------------------------------*/
+
+$primary: #209cda; //blue
+$primary-dark: #1289c3;
+$secondary: #3cc3b2;
+
+$black: #000000;
+$blue-gray: #ecf0f3;
+$gray: #a8a9ad;
+$gray-light: #dadbdd;
+$gray-dark: #6d6e72;
+$white: #ffffff;
+
+$blue: #52b3e3;
+$blue-light: #84d0f5;
+$blue-dark: #262d3b;
+$green: #60a353;
+$orange: #e3a052;
+$red: #e15858;
+
+
+/*------------------------------------*\
+	#FONTS
+\*------------------------------------*/
+
+$font-size: 100%;
+$line-height: 150%;
+$letter-spacing: 0.05em;
+
+$font-family: 'Roboto', sans-serif;
+$number-font-family: $font-family;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight: $font-weight-light;
+
+$font-color: $gray-dark;
+$font-color-invert: $white;
+
+$h-size:
+	2.1rem		//h1
+	1.5rem		//h2
+	1.25rem		//h3
+	1rem		//h4
+	0.85rem		//h5
+	0.65rem;	//h6
+
+
+/*------------------------------------*\
+	#RADIUS
+\*------------------------------------*/
+
+$radius: 5px;
+
+
+/*------------------------------------*\
+	#TRANSITION
+\*------------------------------------*/
+
+$transition-duration: 0.2s;
+$transition-function: ease-out;
